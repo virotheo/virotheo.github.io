@@ -1,0 +1,65 @@
+/* commentaire = ctrl + / */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+* {
+    font-family: "Bitcount Prop Single";
+}
+
+body{
+    margin: 0 auto;
+}
+
+/* tête de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+
+section.top-page {
+    background-color: #252525;
+    background-size: cover;
+    height: 80vh;
+}
+
+header.header img {
+    width: 150px;
+}
+
+/* menu de nav */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li {
+    color: #ffffff;
+}
+
+nav.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* landing page */
+div.landing-page{
+    background-color: #252525;
+    padding: 25px;
+
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* footer */
+
+footer {
+    margin: 40px 100px;
+}
