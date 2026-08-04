@@ -49,6 +49,7 @@ nav.nav a {
 div.landing-page{
     background-color: #252525;
     padding: 25px;
+    text-align: center;
 
 }
 
@@ -62,4 +63,5 @@ div.landing-page{
 
 footer {
     margin: 40px 100px;
+    text-align: center;
 }
