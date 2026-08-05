@@ -3,10 +3,12 @@
 
 * {
     font-family: "Bitcount Prop Single";
+    
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
+    background-color: #252525;
 }
 
 /* tête de page */
@@ -18,8 +20,7 @@ header.header {
 }
 
 section.top-page {
-    background-color: #252525;
-    background-size: cover;
+    background-color: #252525 ;
     height: 80vh;
 }
 
@@ -47,10 +48,13 @@ nav.nav a {
 
 /* landing page */
 div.landing-page{
-    background-color: #252525;
     padding: 25px;
     text-align: center;
+    height: 65vh;
+}
 
+div.landing-page h1 {
+    color: #ffffff;
 }
 
 .title {
@@ -59,9 +63,23 @@ div.landing-page{
     padding: 10px;
 }
 
+h1 {
+    background-color: transparent;
+}
+
+h3 {
+    color: #ffffff;
+    background-color: transparent;
+}
+
 /* footer */
 
 footer {
-    margin: 40px 100px;
+    height: 20vh;
     text-align: center;
+    background-color: tra;
+}
+
+footer p {
+    color: #ffffff;
 }
