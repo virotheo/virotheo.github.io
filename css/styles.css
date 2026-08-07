@@ -1,7 +1,7 @@
 /* commentaire = ctrl + / */
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 
-* {
+h1,h2,h3,nav, table {
     font-family: "Bitcount Prop Single";
     
 }
@@ -58,7 +58,7 @@ div.landing-page h1 {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 28px;
     text-align: center;
     padding: 10px;
 }
@@ -72,6 +72,44 @@ h3 {
     background-color: transparent;
 }
 
+/* . {
+    margin: 0 auto;
+    list-style-type: none;
+    font-size: 50px;
+    color: #ffffff; */
+
+
+.tableau {
+    border-collapse: collapse; /* rapprocher au max les cell */
+    min-width: 750px;
+    width: auto;
+    margin: 100px auto;  /* centrer le tableau */
+    border: 2px solid rgb(15, 14, 14);
+
+}
+
+.tableau a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+thead tr { /* rangée de titres */
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+tbody {
+    color: #ffffff;
+}
+
+th, td {
+    padding: 15px 20px;
+}
+
+tbody, tr, td, th {
+    border: 1px solid gray;
+}
+
 /* footer */
 
 footer {
@@ -82,4 +120,5 @@ footer {
 
 footer p {
     color: #ffffff;
+    font-size: 12px;
 }
