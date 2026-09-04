@@ -33,8 +33,8 @@ nav.nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 400px;
-    margin-left: 30px;
+    width: 800px;
+    margin-left: 200px;
 }
 
 nav.nav li {
@@ -88,9 +88,13 @@ h3 {
 
 }
 
+.unavailable {
+    color: #d81515;
+}
+
 .tableau a {
     text-decoration: none;
-    color: #ffffff;
+    color: #63dc1d;
 }
 
 thead tr { /* rangée de titres */
@@ -121,4 +125,9 @@ footer {
 footer p {
     color: #ffffff;
     font-size: 12px;
+}
+
+div.landing-page a {
+    text-decoration: none;
+    color: aqua;
 }
