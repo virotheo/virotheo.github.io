@@ -45,7 +45,7 @@ nav.nav a {
     text-decoration: none;
 }
 
-nav.nav:hover a {
+menu:hover {
     color: #ff9900;
 }
 
