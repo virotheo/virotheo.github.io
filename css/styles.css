@@ -45,8 +45,9 @@ nav.nav a {
     text-decoration: none;
 }
 
-.menu:hover {
+nav.nav a:hover {
     color: #ff9900;
+    text-decoration: none;
 }
 
 /* landing page */
