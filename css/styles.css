@@ -45,12 +45,11 @@ nav.nav li {
 nav.nav a {
     color: #ffffff;
     text-decoration: none;
+    transition: 0.5s;    
 }
 
 nav.nav:hover a {
     color: #ff9900
-    transition: 0.5s;
-
 }        
 
 /* landing page */
