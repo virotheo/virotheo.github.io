@@ -49,6 +49,8 @@ nav.nav a {
 
 nav.nav:hover a {
     color: #ff9900
+    transition: 0.3s;
+
 }        
 
 /* landing page */
