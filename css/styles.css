@@ -1,18 +1,16 @@
 /* commentaire = ctrl + / */
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+@import url('https://googleapis.com');
 
-h1,h2,h3,nav, table {
+h1, h2, h3, nav, table {
     font-family: "Bitcount Prop Single";
-    
 }
 
-body{
+body {
     margin: 0;
     background-color: #252525;
 }
 
 /* tête de page */
-
 header.header {
     display: flex;
     align-items: center;
@@ -20,7 +18,7 @@ header.header {
 }
 
 section.top-page {
-    background-color: #252525 ;
+    background-color: #252525;
     height: 80vh;
 }
 
@@ -47,12 +45,13 @@ nav.nav a {
     text-decoration: none;
 }
 
+nav.nav a:hover,
 nav.nav:hover a {
-    color: #ff9900
-}        
+    color: #ff9900;
+}
 
 /* landing page */
-div.landing-page{
+div.landing-page {
     padding: 25px;
     text-align: center;
     height: 65vh;
@@ -77,20 +76,12 @@ h3 {
     background-color: transparent;
 }
 
-/* . {
-    margin: 0 auto;
-    list-style-type: none;
-    font-size: 50px;
-    color: #ffffff; */
-
-
 .tableau {
     border-collapse: collapse; /* rapprocher au max les cell */
     min-width: 750px;
     width: auto;
-    margin: 100px auto;  /* centrer le tableau */
+    margin: 100px auto; /* centrer le tableau */
     border: 2px solid rgb(15, 14, 14);
-
 }
 
 .unavailable {
@@ -120,7 +111,6 @@ tbody, tr, td, th {
 }
 
 /* footer */
-
 footer {
     height: 20vh;
     text-align: center;
