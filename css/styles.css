@@ -124,7 +124,7 @@ tbody, tr, td, th {
 footer {
     height: 20vh;
     text-align: center;
-    background-color: tra;
+    background-color: transparent;
 }
 
 footer p {
