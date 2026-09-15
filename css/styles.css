@@ -44,8 +44,6 @@ nav.nav li {
 
 nav.nav a {
     color: #ffffff;
-    transition:
-        color: 0.5s;    
     text-decoration: none;
 }
 
