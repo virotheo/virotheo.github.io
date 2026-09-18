@@ -47,6 +47,11 @@ nav.nav a {
     text-decoration: none;
 }
 
+nav.nav a:hover {
+    color: #ff9900;
+    text-decoration: none;
+}
+
 /* landing page */
 div.landing-page{
     padding: 25px;
