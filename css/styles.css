@@ -106,7 +106,10 @@ th, td {
     padding: 15px 20px;
 }
 
-tbody, tr, td, th {
+.tableau tbody, 
+.tableau tr, 
+.tableau td, 
+.tableau th {
     border: 1px solid gray;
 }
 
